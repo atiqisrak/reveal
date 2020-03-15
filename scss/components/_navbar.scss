@@ -2,23 +2,24 @@
 #mainNav {
     background-color: $gray-900;
     .navbar-toggler {
-        font-size: 12px;
+        font-size: 14px;
         right: 0;
         padding: 13px;
         text-transform: uppercase;
         color: white;
         border: 0;
-        background-color: $primary;
+        background: rgb(34, 193, 195);
+        background: linear-gradient(180deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
         @include heading-font;
     }
     .navbar-brand {
-        color: $primary;
+        color: $meg;
         @include script-font;
         &.active,
         &:active,
         &:focus,
         &:hover {
-            color: darken($primary, 10%);
+            color: darken($meg, 10%);
         }
     }
     .logo {
@@ -34,15 +35,16 @@
     .navbar-nav {
         .nav-item {
             .nav-link {
-                font-size: 90%;
-                font-weight: 400;
+                font-size: 18px;
+                font-weight: bold;
                 padding: 0.75em 0;
                 letter-spacing: 1px;
                 color: white;
                 @include heading-font;
                 &.active,
                 &:hover {
-                    color: $primary;
+                    color: $meg;
+                    // color: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
                 }
             }
         }
