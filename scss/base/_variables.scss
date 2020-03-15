@@ -1,0 +1,25 @@
+// Variables
+
+// Restated Bootstrap Variables
+
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$gradients: () !default;
+$gradients: map-merge((
+        chill: linear-gradient(135deg, #09e485 0%,#0291e3 100%),
+        warm: linear-gradient(135deg, #F2CD48 0%,#FD803F 100%),
+        hot: linear-gradient(135deg, #F9445A 0%,#FD803F 100%),
+        cold: linear-gradient(135deg, #8019C6 0%,#2F93CC 100%)
+), $gradients);
+
+$primary: #0088cc !default;
